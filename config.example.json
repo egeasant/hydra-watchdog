@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "interval_seconds": 60,
+    "timeout_seconds": 3.0,
+    "max_workers": 10
+  },
+  "notifications": {
+    "discord_webhook_url": "SEU_WEBHOOK_AQUI",
+    "telegram_bot_token": "SEU_TOKEN_AQUI",
+    "telegram_chat_id": "SEU_CHAT_ID_AQUI"
+  },
+  "targets": [
+    {
+      "name": "Exemplo de Servidor",
+      "category": "Rede",
+      "host": "8.8.8.8",
+      "port": 53
+    }
+  ]
+}
